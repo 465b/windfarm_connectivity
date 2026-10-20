@@ -1,0 +1,11 @@
+# model output (regenerate with run_connectivity.py)
+output/
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# editors
+*.code-workspace
+.vscode/

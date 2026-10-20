@@ -1,0 +1,4 @@
+[submodule "oceantracker"]
+	path = oceantracker
+	url = https://github.com/oceantracker/oceantracker.git
+	branch = dev

@@ -1,0 +1,29 @@
+name: oceantracker
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  # oceantracker (see oceantracker/pyproject.toml)
+  - numba
+  - numpy
+  - netcdf4
+  - xarray
+  - scipy
+  - pyproj
+  - psutil
+  - matplotlib
+  - pyyaml
+  - ffmpeg-python
+  - requests
+  # wind farm polygons and analysis
+  - geopandas
+  - shapely
+  - pandas
+  # notebooks
+  - ipykernel
+  - nbformat
+  - nbclient
+  - nbconvert
+  - pip
+  - pip:
+      - -e ./oceantracker   # the submodule, editable
